@@ -3,7 +3,8 @@
 
 #header {
   background-color: #1e6398;
-  height: 75px; }
+  height: 75px;
+  border-bottom: 3px solid #131518; }
   #header h1 {
     display: inline; }
     #header h1 a {
@@ -24,7 +25,8 @@
       #header ol li a:hover {
         color: #131518; }
     #header ol li:hover {
-      color: #131518; }
+      color: #131518;
+      cursor: pointer; }
 
 #first-featured {
   margin-top: 200px; }
@@ -35,7 +37,7 @@
   margin-bottom: 20px;
   height: 150px;
   border: 3px solid #131518;
-  border-radius: 25px; }
+  border-radius: 10px; }
   .featured p {
     font-size: 60px;
     color: #cacaca; }
@@ -54,7 +56,9 @@
     background-color: #1e6398;
     margin-top: 30px;
     margin-left: 25px;
-    margin-right: 25px; }
+    margin-right: 25px;
+    border: 3px solid #131518;
+    border-radius: 10px; }
     .login-signup-container .login-signup-background label {
       color: #cacaca; }
     .login-signup-container .login-signup-background .input-block {
@@ -69,7 +73,8 @@
       color: #cacaca; }
     .login-signup-container .login-signup-background .login-or-signup p {
       text-align: center;
-      font-size: 33px; }
+      font-size: 33px;
+      color: #cacaca; }
 
 #footer {
   background-color: #131518;

@@ -3,11 +3,11 @@
         <form class="login-form">
             <div class="input-block" id="password-email">
                 <label for="email-login">email:</label>
-                <input type="text" id="email-login" />
+                <input autocomplete="email" type="text" id="email-login" />
             </div>
             <div class="input-block">
                 <label for="password-login">password:</label>
-                <input type="password"/>
+                <input autocomplete="current-password" type="password" id="password-login"/>
             </div>
             <div class="input-button">
                 <button type="submit">login</button>
@@ -24,7 +24,7 @@
         <form class="signup-form">
             <div class="input-block">
                 <label for="username-signup">username:</label>
-                <input type="text" id="username-signup" />
+                <input autocomplete="username" type="text" id="username-signup" />
             </div>
             <div class="input-block">
                 <label for="email-signup">email:</label>
@@ -32,7 +32,7 @@
             </div>
             <div class="input-block">
                 <label for="password-signup">password:</label>
-                <input type="password" id="password-signup" />
+                <input autocomplete="current-password" type="password" id="password-signup" />
             </div>
             <div class="input-button">
                 <button type="submit">signup</button>
@@ -46,3 +46,5 @@
         </div>
     </div>
 </div>
+
+<script src="/javascript/login.js"></script>
