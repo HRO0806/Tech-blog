@@ -1,0 +1,100 @@
+.page-background {
+  background-image: url("/images/cubes.png"); }
+
+#header {
+  background-color: #1e6398;
+  height: 75px; }
+  #header h1 {
+    display: inline; }
+    #header h1 a {
+      text-decoration: none;
+      color: #cacaca; }
+  #header ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    #header ol li {
+      color: #cacaca;
+      list-style-type: none;
+      font-size: 23px;
+      margin-left: auto; }
+      #header ol li a {
+        text-decoration: none;
+        color: #cacaca; }
+      #header ol li a:hover {
+        color: #131518; }
+    #header ol li:hover {
+      color: #131518; }
+
+#first-featured {
+  margin-top: 200px; }
+
+.featured {
+  background-color: #1e6398;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 150px;
+  border: 3px solid #131518;
+  border-radius: 25px; }
+  .featured p {
+    font-size: 60px;
+    color: #cacaca; }
+
+.featured:hover {
+  background-color: #06395d; }
+
+.login-signup-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center; }
+  .login-signup-container .login-signup-background {
+    width: 400px;
+    height: 500px;
+    background-color: #1e6398;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px; }
+    .login-signup-container .login-signup-background label {
+      color: #cacaca; }
+    .login-signup-container .login-signup-background .input-block {
+      margin-top: 25px; }
+    .login-signup-container .login-signup-background button {
+      margin-top: 25px;
+      background-color: #cacaca;
+      color: #131518;
+      border: none; }
+    .login-signup-container .login-signup-background button:hover {
+      background-color: #131518;
+      color: #cacaca; }
+    .login-signup-container .login-signup-background .login-or-signup p {
+      text-align: center;
+      font-size: 33px; }
+
+#footer {
+  background-color: #131518;
+  margin-top: 0;
+  margin-bottom: auto;
+  position: fixed;
+  bottom: 0; }
+  #footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    #footer ol li {
+      color: #cacaca;
+      list-style-type: none;
+      margin-right: 10px;
+      margin-left: -15px; }
+      #footer ol li a {
+        color: #cacaca;
+        text-decoration: none; }
+
+@media screen and (max-width: 850px) {
+  #header ol li {
+    font-size: 15px; } }
+@media screen and (max-width: 360px) {
+  #header {
+    height: 100px; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,142 @@
+$dark: #131518;
+$text: #cacaca;
+$darkWhite: #c6c8ca;
+$lightGrey: #797b80;
+$primaryColor: #1e6398;
+$secondaryColor: #950006;
+$darkGrey: #48484a;
+$darkBLue: #06395d;
+
+.page-background {
+    background-image: url("/images/cubes.png")
+}
+
+#header {
+    background-color: $primaryColor;
+    //background-image: linear-gradient(to right, $primaryColor, $dark);
+    height: 75px;
+    h1{
+        display: inline;
+        a{
+            text-decoration: none;
+            color: $text;
+        }
+    }
+    ol{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            color: $text;
+            list-style-type: none;
+            font-size: 23px;
+            margin-left: auto;
+            a{
+                text-decoration: none;
+                color: $text;
+            }
+            a:hover{
+                color: $dark;
+            }
+        }
+        li:hover{
+            color: $dark;
+        }
+    }
+}
+
+#first-featured{
+    margin-top: 200px;
+}
+
+.featured{
+    background-color: $primaryColor;
+    margin-top: 20px;
+    margin-bottom:20px;
+    height: 150px;
+    border: 3px solid $dark;
+    border-radius: 25px;
+    p{
+        font-size: 60px;
+        color: $text;
+    }  
+}
+.featured:hover{
+   background-color: $darkBLue;
+}
+
+.login-signup-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    .login-signup-background{
+        width: 400px;
+        height: 500px;
+        background-color: $primaryColor;
+        margin-top: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+        label{
+            color: $text;
+        }
+        .input-block{
+            margin-top: 25px;
+        }
+        button{
+            margin-top: 25px;
+            background-color: $text;
+            color: $dark;
+            border: none;
+        }
+        button:hover{
+            background-color: $dark;
+            color: $text;
+        }
+        .login-or-signup{
+            p{
+              text-align: center;
+              font-size: 33px;  
+            }
+        } 
+    }
+}
+
+#footer{
+    background-color: $dark;
+    margin-top: 0;
+    margin-bottom: auto;
+    position: fixed;
+    bottom: 0;
+    ol{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            color: $text;
+            list-style-type: none;
+            margin-right: 10px;
+            margin-left: -15px;
+            a{
+                color: $text;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #header{
+        ol{
+            li{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #header{
+        height: 100px;
+    }
+}
